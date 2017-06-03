@@ -190,7 +190,7 @@ public class ApplicationHome extends JFrame {
 		lblqos.setBounds(444, 50, 42, 24);
 		schedaTopic.add(lblqos);
 		lblqos.setFont(new Font("Titillium Web", Font.PLAIN, 16));
-		String qos[] = {"0","1","2"};
+		String qos[] = {"0","1"};
 		comboBox = new JComboBox(qos);
 		comboBox.setBounds(487, 52, 34, 22);
 		schedaTopic.add(comboBox);
