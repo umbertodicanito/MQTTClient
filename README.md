@@ -2,21 +2,34 @@
 
 _Progetto di calcolatori elettronici e reti di calcolatori. U. Di Canito, E.Palmisano._
 
-L'applicazione realizzata è un semplice client MQTT che permette:
+Application implemented is a simple MQTT client that allows:
 
-  - Connessione ad un broker
+  - Broker Connection
+  - Topic Subscribe
+  - View messages received from topic
+  - Send messages to topic
 
-  - Sottoscrizione ai topic
+Application is written in Java using Paho library  
 
-  - Visualizzare i messaggi ricevuti sui topic
+#Project Structure
 
-  - Inviare messaggi ai topic
-  
-L'applicazione realizzata è scritta in Java utilizzando le librerie Paho.
+The project is developed following the MVC design pattern.
+Application's model is represented by connection and a controller manage each view events.
+The project is structured with following method:
 
-**Struttura del progetto **
+![](https://s7.postimg.org/lytyhkn2z/cattura1.png)
 
-Il progetto è sviluppato seguendo il design pattern MVC.
-Il model dell'applicazione è rappresentato dalla connessione mentre un controller gestisce tutti gli eventi della view.
-Il progetto quindi è così strutturato:
-![Immagine del progetto](https://ibb.co/iDKhDF)
+Class Project are 5.
+In the model there is a class that manages connection and CheckConnection class.
+Check Connection instance an object that verify internet connection thanks to a socket.
+In Connection there are methods to connect to a broker,subscribe topic,send and receive messages.
+
+In the controller there is a class ControllerMainPage that manages view events.
+
+In the view there is a class that builds a JFrame.
+
+Main class contains only main method that initializes controller.
+
+
+
+
