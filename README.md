@@ -1,6 +1,7 @@
 #MQTTClient
 
-_Progetto di calcolatori elettronici e reti di calcolatori. U. Di Canito, E.Palmisano._
+_Project of Electronic Computer and Computer network course. Developers:U. Di Canito, E.Palmisano. email:info@lowboys.it_
+
 
 Application implemented is a simple MQTT client that allows:
 
