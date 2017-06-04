@@ -1,4 +1,4 @@
-#MQTTClient
+# MQTTClient
 
 _Project of Electronic Computer and Computer network course. Developers:U. Di Canito, E.Palmisano. email:info@lowboys.it_
 
@@ -12,7 +12,7 @@ Application implemented is a simple MQTT client that allows:
 
 Application is written in Java using Paho library  
 
-#Project Structure
+# Project Structure
 
 The project is developed following the MVC design pattern.
 Application's model is represented by connection and a controller manage each view events.
