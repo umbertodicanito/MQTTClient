@@ -1,6 +1,6 @@
 # MQTTClient
 
-_Project of Electronic Computer and Computer networks course. Developers: U. Di Canito, E.Palmisano. email:info@lowboys.it_
+_Project of Electronic Computer and Computer networks course. Developers: U. Di Canito, E.Palmisano.
 
 
 Application implemented is a simple MQTT client that allows:
